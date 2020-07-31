@@ -1,57 +1,44 @@
-import React, { Component } from 'react'
-import { Icon, Menu, Segment } from 'semantic-ui-react'
+import React, { Component } from "react";
+import { Menu, Segment } from "semantic-ui-react";
 
 export default class MenuExampleTabularOnBottom extends Component {
-  state = { activeItem: 'active' }
+  state = { activeItem: "1" };
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
   render() {
-    const { activeItem } = this.state
+    const { activeItem } = this.state;
 
     return (
       <div>
-        <Segment attached='top'>
-          <img src='/images/wireframe/paragraph.png' />
-        </Segment>
+        <Segment attached="top">Technical Projects</Segment>
 
-        <Menu attached='bottom' tabular>
+        <Menu attached="bottom" tabular>
           <Menu.Item
-            name='active'
-            active={activeItem === 'active'}
+            name="1"
+            active={activeItem === "1"}
             onClick={this.handleItemClick}
           >
-            Active Project
+            Mood Swing
           </Menu.Item>
 
           <Menu.Item
-            name='2'
-            active={activeItem === '2'}
+            name="2"
+            active={activeItem === "2"}
             onClick={this.handleItemClick}
           >
-            Project #2
+            Break Time
           </Menu.Item>
 
           <Menu.Item
-            name='3'
-            active={activeItem === '3'}
+            name="3"
+            active={activeItem === "3"}
             onClick={this.handleItemClick}
           >
-            Project #3
+          Dog Barks
           </Menu.Item>
-
-          <Menu.Menu position='right'>
-            <Menu.Item
-              name='new-tab'
-              active={activeItem === 'new-tab'}
-              onClick={this.handleItemClick}
-            >
-              <Icon name='add' />
-              New Tab
-            </Menu.Item>
-          </Menu.Menu>
         </Menu>
       </div>
-    )
+    );
   }
 }
