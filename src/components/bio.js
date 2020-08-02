@@ -2,9 +2,9 @@ import React from "react";
 import { Popup, Card, Image, Rating } from "semantic-ui-react";
 import hugoPic from "../images/hugoPic.jpeg";
 
-const PopupExampleTrigger = () => (
+const Bio = () => (
   <Card fluid={true} raised={true}>
-    <Image size="small" src={hugoPic} />
+    <Image size="small" src={hugoPic} centered />
     <Card.Content>
       <Card.Header>Hello, I'm Hugo Escandon</Card.Header>
       <Card.Header>Full-Stack Software Developer</Card.Header>
@@ -17,4 +17,4 @@ const PopupExampleTrigger = () => (
   </Card>
 );
 
-export default PopupExampleTrigger;
+export default Bio;
