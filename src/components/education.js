@@ -5,7 +5,6 @@ const Education = () => (
   <Card fluid={true} raised={true}>
     <Card.Content>
       <Card.Header>EDUCATION</Card.Header>
-
       <Card.Description>
         Flatiron School New York, NY Certificate of Full Stack Software
         Engineering, Dec 2019 Union County College Cranford, NJ Associate Degree

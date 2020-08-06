@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Menu, Segment } from "semantic-ui-react";
 
-export default class MenuExampleTabularOnBottom extends Component {
+export default class PortfolioContainer extends Component {
   state = { activeItem: "1" };
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
