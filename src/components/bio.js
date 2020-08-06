@@ -1,5 +1,5 @@
 import React from "react";
-import { Popup, Card, Image, Rating } from "semantic-ui-react";
+import { Popup, Card, Image} from "semantic-ui-react";
 import hugoPic from "../images/hugoPic.jpeg";
 
 const Bio = () => (
