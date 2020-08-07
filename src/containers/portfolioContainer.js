@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Menu, Segment } from "semantic-ui-react";
+import { Menu, Segment} from "semantic-ui-react";
+import BreakTimeDemo from "../components/breakTimeDemo"
 
 export default class PortfolioContainer extends Component{
   state = { activeItem: "1" };
@@ -13,8 +14,9 @@ export default class PortfolioContainer extends Component{
       <div>
         <Segment attached="top">Technical Projects</Segment>
 
-        <Menu attached="bottom" tabular>
+        <Menu attached="bottom" tabular icon>
           <Menu.Item
+
             name="1"
             active={activeItem === "1"}
             onClick={this.handleItemClick}
@@ -28,6 +30,9 @@ export default class PortfolioContainer extends Component{
             onClick={this.handleItemClick}
           >
             Break Time
+
+
+            <BreakTimeDemo/>
           </Menu.Item>
 
           <Menu.Item
