@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import { Tab, Popup } from "semantic-ui-react";
 import Bio from "../components/bio";
 import Info from "../components/info";
@@ -42,19 +42,16 @@ const panes = [
 
 const MenuContainer = () => {
 
-const [isShown, notShown] = useState(false);
 
+  
 
-    return (
+  return (
+    <Tab
+      defaultActiveIndex={0}
 
-      <Tab
-       onMouseEnter={()=>isShown(true) }
-       onMouseLeave={()=>notShown(false)}
-       menu={{ fluid: true, vertical: true, tabular: true }}
-       panes={panes}
-      />
-
-    );
-
-}
-export default MenuContainer
+      menu={{ fluid: true, vertical: true, tabular: true }}
+      panes={panes}
+    />
+  );
+};
+export default MenuContainer;
