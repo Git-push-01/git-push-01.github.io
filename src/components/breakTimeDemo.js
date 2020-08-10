@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Embed } from "semantic-ui-react";
-import breakTime from "../images/breakTime.jpeg"
+import breakTime from "../images/breakTime.jpeg";
 
 const BreakTimeDemo = () => (
   <Card fluid={true} raised={true}>
@@ -12,17 +12,9 @@ const BreakTimeDemo = () => (
       </Card.Header>
       <Card.Description>
         <Embed
-         aspectRatio='16:9'
-         placeholder= {breakTime}
-          autoplay={false}
-          iframe={{
-            allowFullScreen: true,
-            style: {
-              padding: 10,
-            },
-          }}
-          url="https://drive.google.com/file/d/1uDRVCahj3pXSmdwozqMDKhJT57R9RErC/view?usp=sharing"
-          source='google'
+          aspectRatio="16:9"
+          placeholder={breakTime}
+          url="https://break-time-frontend.herokuapp.com/login"
         />
       </Card.Description>
     </Card.Content>
