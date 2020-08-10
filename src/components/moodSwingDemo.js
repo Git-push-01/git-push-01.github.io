@@ -14,7 +14,7 @@ const MoodSwingDemo = () => (
         <Embed
           aspectRatio="16:9"
           placeholder={moodSwing}
-          url="https://lit-castle-80970.herokuapp.com/users/sign_up"
+          url="https://cors-anywhere.herokuapp.com/https://lit-castle-80970.herokuapp.com/users/sign_up"
         />
       </Card.Description>
     </Card.Content>

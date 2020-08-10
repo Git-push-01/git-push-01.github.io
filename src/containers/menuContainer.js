@@ -1,5 +1,5 @@
 import React from "react";
-import { Tab, Popup } from "semantic-ui-react";
+import { Tab } from "semantic-ui-react";
 import Bio from "../components/bio";
 import Info from "../components/info";
 import Education from "../components/education";
