@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Menu, Segment} from "semantic-ui-react";
 import BreakTimeDemo from "../components/breakTimeDemo"
+import MoodSwingDemo from "../components/moodSwingDemo"
 
 export default class PortfolioContainer extends Component{
   state = { activeItem: "1" };
@@ -22,6 +23,7 @@ export default class PortfolioContainer extends Component{
             onClick={this.handleItemClick}
           >
             Mood Swing
+            <MoodSwingDemo/>
           </Menu.Item>
 
           <Menu.Item
