@@ -3,7 +3,7 @@ import { Card, Embed } from "semantic-ui-react";
 import moodSwing from "../images/moodSwing.jpeg";
 
 const MoodSwingDemo = () => (
-  <Card fluid={true} raised={true}>
+  <Card fluid={true} raised={true} >
     <Card.Content>
       <Card.Header>Mood Swing Demo</Card.Header>
       <Card.Header>
