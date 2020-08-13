@@ -1,14 +1,21 @@
 import React from "react";
-import { Card } from "semantic-ui-react";
+import { Card, List } from "semantic-ui-react";
 
 const Education = () => (
   <Card fluid={true} raised={true}>
     <Card.Content>
       <Card.Header>EDUCATION</Card.Header>
       <Card.Description>
-        Flatiron School New York, NY Certificate of Full Stack Software
-        Engineering, Dec 2019 Union County College Cranford, NJ Associate Degree
-        in Computer Science, May 2018
+        <List bulleted>
+          <List.Item>
+            Flatiron School New York, NY Certificate of Full Stack Software
+            Engineering, Dec 2019
+          </List.Item>
+          <List.Item>
+            Union County College Cranford, NJ Associate Degree in Computer
+            Science, May 2018
+          </List.Item>
+        </List>
       </Card.Description>
     </Card.Content>
   </Card>
