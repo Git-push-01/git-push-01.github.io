@@ -36,6 +36,10 @@ const TechSkill = () => (
           alt=""
         />
         <img
+          src="https://img.icons8.com/color/96/000000/bootstrap.png"
+          alt=""
+        />
+        <img
           src="https://img.icons8.com/color/96/000000/npm.png"
           alt=""
         />
