@@ -13,7 +13,6 @@ const BreakTimeDemo = () => (
       <Image
         src={breakTime}
         fluid
-        size="large"
         rounded
         href="https://break-time-frontend.herokuapp.com/login"
       />

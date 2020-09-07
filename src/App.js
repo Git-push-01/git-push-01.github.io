@@ -1,6 +1,7 @@
 import React from "react";
 import MenuContainer from "./containers/menuContainer";
 import PortfolioContainer from "./containers/portfolioContainer";
+
 import "./App.css";
 import { Segment } from "semantic-ui-react";
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Segment attached="top">Hugo Escandon Portfolio</Segment>
       <MenuContainer />
+      <Segment attached="top">Technical Projects</Segment>
       <PortfolioContainer />
     </div>
   );
