@@ -13,11 +13,9 @@ const MoodSwingDemo = () => (
       </Card.Header>
       <Card.Description>
         <Embed
-          crossOrigin="anonymous"
-          referrerPolicy="origin"
           aspectRatio="16:9"
           placeholder={moodSwing}
-          url='https://lit-castle-80970.herokuapp.com/users/sign_up'
+          url="https://lit-castle-80970.herokuapp.com/users/sign_up"
         />
       </Card.Description>
     </Card.Content>
