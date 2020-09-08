@@ -4,7 +4,7 @@ import hugoPic from "../images/hugoPic.jpeg";
 
 const Bio = () => (
   <Card fluid={true} raised={true}>
-    <Image size="small" src={hugoPic} centered />
+    <Image  size="small" src={hugoPic} centered />
     <Card.Content>
       <Card.Header>Hello, I'm Hugo Escandon</Card.Header>
       <Card.Header>Full-Stack Software Developer</Card.Header>

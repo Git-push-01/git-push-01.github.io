@@ -5,18 +5,18 @@ import breakTime from "../images/breakTime.jpeg";
 const BreakTimeDemo = () => (
   <Card fluid={true} raised={true}>
     <Card.Content>
-      <Card.Header>Break Time App Demo</Card.Header>
-      Break-time scheduler for frontline employees to keep track of break-times
-      and improve efficiency
+      <Card.Header>Break-Time</Card.Header>
+      Break-time scheduler for frontline employees
     </Card.Content>
-    <Card.Description>
+
       <Image
         src={breakTime}
+        centered
         fluid
         rounded
         href="https://break-time-frontend.herokuapp.com/login"
       />
-    </Card.Description>
+    
   </Card>
 );
 
