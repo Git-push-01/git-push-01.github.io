@@ -4,7 +4,7 @@ import { Card, List } from "semantic-ui-react";
 const Education = () => (
   <Card fluid={true} raised={true}>
     <Card.Content>
-      <Card.Header  textAlign='center'>EDUCATION</Card.Header>
+      <Card.Header  textAlign='center'>Education</Card.Header>
       <Card.Description>
         <List bulleted >
           <List.Item>

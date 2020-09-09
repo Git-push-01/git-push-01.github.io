@@ -4,7 +4,7 @@ import { Card } from "semantic-ui-react";
 const TechSkill = () => (
   <Card fluid={true} raised={true} >
     <Card.Content>
-      <Card.Header  textAlign='center'>TECHNICAL SKILLS</Card.Header >
+      <Card.Header  textAlign='center'>Technical Skills</Card.Header >
 
       <Card.Description >
         <img
