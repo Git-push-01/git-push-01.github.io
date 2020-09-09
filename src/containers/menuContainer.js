@@ -45,8 +45,10 @@ const MenuContainer = () => {
   return (
     <Tab
       defaultActiveIndex={0}
-      menu={{ fluid: true, vertical: true, tabular: true }}
+      menu={{ fluid: true, vertical: false, tabular: false }}
       panes={panes}
+      fluid="true"
+      centered="true"
     />
   );
 };

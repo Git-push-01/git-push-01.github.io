@@ -15,8 +15,9 @@ const MoodSwingDemo = () => (
         centered
         rounded
         href="https://lit-castle-80970.herokuapp.com/users/sign_up"
+        target="_blank"
       />
-    
+
   </Card>
 );
 

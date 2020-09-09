@@ -2,14 +2,18 @@ import React from "react";
 import { Card } from "semantic-ui-react";
 import BreakTimeDemo from "../components/breakTimeDemo";
 import MoodSwingDemo from "../components/moodSwingDemo";
+import DogBarksDemo from "../components/DogBarksDemo"
 
 const PortfolioContainer = () => (
-  <Card.Group>
+  <Card.Group centered >
   <Card>
  <BreakTimeDemo />
  </Card>
  <Card>
 <MoodSwingDemo />
+</Card>
+<Card>
+<DogBarksDemo/>
 </Card>
 
 </Card.Group>

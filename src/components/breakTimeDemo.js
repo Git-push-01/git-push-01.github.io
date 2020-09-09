@@ -15,8 +15,9 @@ const BreakTimeDemo = () => (
         fluid
         rounded
         href="https://break-time-frontend.herokuapp.com/login"
+        target="_blank"
       />
-    
+
   </Card>
 );
 
