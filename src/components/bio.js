@@ -6,7 +6,7 @@ const Bio = () => (
   <Card fluid={true} color="black" raised={true} >
     <Image bordered size="small" src={hugoPic} centered rounded />
     <Card.Content >
-      <Card.Description >
+      <Card.Description   textAlign='center'>
         Team-oriented Full Stack Software Developer with a passion for
         developing creative business solutions. Using my background in Computer
         Science and experience in Operations, I bring adaptability to

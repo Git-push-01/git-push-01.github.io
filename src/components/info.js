@@ -4,7 +4,7 @@ import { Card, List } from "semantic-ui-react";
 const Info = () => (
   <Card fluid={true} raised={true} >
     <Card.Content>
-      <Card.Header>Contact Info</Card.Header>
+      <Card.Header  textAlign='center'>Contact Info</Card.Header>
       <Card.Description>
       <List divided >
         <List.Item>

@@ -16,6 +16,7 @@ function App() {
 
         attached="top"
         inverted
+         textAlign='center'
 
         as="h1"
         style={{
@@ -30,6 +31,7 @@ function App() {
       <Bio />
       <MenuContainer />
       <Segment
+       textAlign='center'
         as="h2"
         inverted
         attached="top"

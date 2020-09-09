@@ -6,14 +6,6 @@ import Education from "../components/education";
 import TechSkill from "../components/techSkill";
 
 const panes = [
-  // {
-  //   menuItem: "Bio",
-  //   render: () => (
-  //     <Tab.Pane>
-  //       <Bio />
-  //     </Tab.Pane>
-  //   ),
-  // },
   {
     menuItem: " Contact Info",
     render: () => (

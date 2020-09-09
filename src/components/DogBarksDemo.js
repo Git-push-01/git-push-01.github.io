@@ -4,7 +4,7 @@ import dogBarksLogo from "../images/dogBarksLogo.jpeg";
 
 const DogBarksDemo = () => (
   <Card fluid={true} raised={true}>
-    <Card.Content>
+    <Card.Content  textAlign='center'>
       <Card.Header>Dog-Barks</Card.Header>
     Geolocation app that allows user to locate the nearest dog park
     </Card.Content>
