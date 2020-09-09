@@ -6,7 +6,7 @@ const Education = () => (
     <Card.Content>
       <Card.Header>EDUCATION</Card.Header>
       <Card.Description>
-        <List bulleted>
+        <List bulleted >
           <List.Item>
             Flatiron School New York, NY Certificate of Full Stack Software
             Engineering, Dec 2019

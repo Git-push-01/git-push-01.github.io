@@ -2,11 +2,11 @@ import React from "react";
 import { Card } from "semantic-ui-react";
 
 const TechSkill = () => (
-  <Card fluid={true} raised={true}>
+  <Card fluid={true} raised={true} >
     <Card.Content>
-      <Card.Header>TECHNICAL SKILLS</Card.Header>
+      <Card.Header>TECHNICAL SKILLS</Card.Header >
 
-      <Card.Description>
+      <Card.Description >
         <img
           src="https://img.icons8.com/color/96/000000/javascript.png"
           alt=""

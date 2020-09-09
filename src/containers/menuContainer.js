@@ -1,19 +1,19 @@
 import React from "react";
 import { Tab } from "semantic-ui-react";
-import Bio from "../components/bio";
+// import Bio from "../components/bio";
 import Info from "../components/info";
 import Education from "../components/education";
 import TechSkill from "../components/techSkill";
 
 const panes = [
-  {
-    menuItem: "Bio",
-    render: () => (
-      <Tab.Pane>
-        <Bio />
-      </Tab.Pane>
-    ),
-  },
+  // {
+  //   menuItem: "Bio",
+  //   render: () => (
+  //     <Tab.Pane>
+  //       <Bio />
+  //     </Tab.Pane>
+  //   ),
+  // },
   {
     menuItem: " Contact Info",
     render: () => (
@@ -44,11 +44,13 @@ const MenuContainer = () => {
 
   return (
     <Tab
+
       defaultActiveIndex={0}
-      menu={{ fluid: true, vertical: false, tabular: false }}
+      menu={{ inverted: true, borderless: true, fluid: true, vertical: false, tabular: false }}
       panes={panes}
       fluid="true"
       centered="true"
+      rounded="true"
     />
   );
 };
