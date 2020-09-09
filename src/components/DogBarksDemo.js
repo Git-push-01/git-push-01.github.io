@@ -10,9 +10,10 @@ const DogBarksDemo = () => (
     </Card.Content>
 
       <Image
+
         src={dogBarksLogo}
         centered
-        fluid
+        fluid={true}
         rounded
         href=""
         target="_blank"

@@ -5,7 +5,7 @@ import MoodSwingDemo from "../components/moodSwingDemo";
 import DogBarksDemo from "../components/DogBarksDemo"
 
 const PortfolioContainer = () => (
-  <Card.Group centered >
+  <Card.Group centered   style={{ minHeight: 100, padding: '1em 0em' }}>
   <Card>
  <BreakTimeDemo />
  </Card>
