@@ -12,6 +12,7 @@ const DogBarksDemo = () => (
         </Card.Content>
 
         <Image
+        
           src={dogBarksLogo}
           centered
           fluid={true}

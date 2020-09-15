@@ -6,12 +6,13 @@ const MoodSwingDemo = () => (
   <Popup
     trigger={
       <Card fluid={true} raised={true}>
-        <Card.Content>
+        <Card.Content textAlign="center">
           <Card.Header>Mood-Swing</Card.Header>
           Music video app that utilizes combinations of emojis
         </Card.Content>
 
         <Image
+
           src={moodSwing}
           fluid
           centered

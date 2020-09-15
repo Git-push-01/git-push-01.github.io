@@ -6,7 +6,7 @@ const BreakTimeDemo = () => (
   <Popup
     trigger={
       <Card fluid={true} raised={true}>
-        <Card.Content>
+        <Card.Content textAlign="center">
           <Card.Header>Break-Time</Card.Header>
           Break-time scheduler for frontline employees
         </Card.Content>
