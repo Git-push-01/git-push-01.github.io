@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Image } from "semantic-ui-react";
-import moodSwing from "../images/moodSwing.jpeg";
+import moodSwing from "../images/moodSwing.jpg";
 
 const MoodSwingDemo = () => (
   <Card fluid={true} raised={true}>

@@ -8,7 +8,7 @@ import { Segment, Container } from "semantic-ui-react";
 
 function App() {
   return (
-    <div>
+    <div  className="container">
     <Container >
 
 

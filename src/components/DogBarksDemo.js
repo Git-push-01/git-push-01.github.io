@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Image } from "semantic-ui-react";
-import dogBarksLogo from "../images/dogBarksLogo.jpeg";
+import dogBarksLogo from "../images/dogBarksLogo.jpg";
 
 const DogBarksDemo = () => (
   <Card fluid={true} raised={true}>

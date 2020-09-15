@@ -1,12 +1,12 @@
 import React from "react";
 import { Card, Image } from "semantic-ui-react";
-import hugoPic from "../images/hugoPic.jpeg";
+import hugoPic from "../images/hugoPic.jpg";
 
 const Bio = () => (
   <Card fluid={true} color="black" raised={true} >
     <Image bordered size="small" src={hugoPic} centered rounded />
     <Card.Content >
-      <Card.Description   textAlign='center'>
+      <Card.Description  textAlign='center'>
         Team-oriented Full Stack Software Developer with a passion for
         developing creative business solutions. Using my background in Computer
         Science and experience in Operations, I bring adaptability to

@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Image } from "semantic-ui-react";
-import breakTime from "../images/breakTime.jpeg";
+import breakTime from "../images/breakTime.jpg";
 
 const BreakTimeDemo = () => (
   <Card fluid={true} raised={true}>
