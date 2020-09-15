@@ -37,7 +37,7 @@ const MenuContainer = () => {
   return (
     <Tab
 
-      defaultActiveIndex={0}
+      defaultActiveIndex={1}
       menu={{ attached: false, pointing: true, inverted: true, borderless: true, fluid: true, vertical: false, tabular: false }}
       panes={panes}
       fluid="true"
