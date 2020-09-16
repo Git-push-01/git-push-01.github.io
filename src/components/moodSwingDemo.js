@@ -12,7 +12,6 @@ const MoodSwingDemo = () => (
         </Card.Content>
 
         <Image
-
           src={moodSwing}
           fluid
           centered

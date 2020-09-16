@@ -40,9 +40,7 @@ const MenuContainer = () => {
       defaultActiveIndex={1}
       menu={{ attached: false, pointing: true, inverted: true, borderless: true, fluid: true, vertical: false, tabular: false }}
       panes={panes}
-      fluid="true"
-      centered="true"
-      rounded="true"
+    
     />
   );
 };

@@ -12,10 +12,11 @@ const DogBarksDemo = () => (
         </Card.Content>
 
         <Image
-        
+          
+
           src={dogBarksLogo}
           centered
-          fluid={true}
+          fluid
           rounded
           href="https://github.com/Git-push-01/DogBarks"
           target="_blank"
