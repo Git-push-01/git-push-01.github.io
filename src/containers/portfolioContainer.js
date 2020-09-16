@@ -7,7 +7,7 @@ import PortFolioDemo from "../components/portFolioDemo";
 
 
 const PortfolioContainer = () => (
-  <Card.Group  centered rounded style={{minHeight: 100, padding: '1em 0em' }}>
+  <Card.Group  centered rounded="true" style={{minHeight: 100, padding: '1em 0em' }}>
   <Card>
  <BreakTimeDemo />
  </Card>
