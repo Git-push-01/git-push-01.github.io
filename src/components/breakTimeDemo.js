@@ -5,7 +5,7 @@ import breakTime from "../images/breakTime.jpg";
 const BreakTimeDemo = () => (
   <Popup
     trigger={
-      <Card fluid={true} raised={true}>
+      <Card fluid={true} raised={true} >
         <Card.Content textAlign="center">
           <Card.Header>Break-Time</Card.Header>
           Break-time scheduler for frontline employees
