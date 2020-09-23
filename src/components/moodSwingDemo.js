@@ -1,6 +1,7 @@
 import React from "react";
 import { Popup, Card, Image } from "semantic-ui-react";
 import moodSwing from "../images/moodSwing.jpg";
+import "../App.css";
 
 const MoodSwingDemo = () => (
   <Popup

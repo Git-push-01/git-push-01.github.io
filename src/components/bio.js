@@ -1,7 +1,7 @@
 import React from "react";
 import { Segment, Image } from "semantic-ui-react";
 import hugoPic from "../images/hugoPic.jpg";
-import background from "../images/background.jpg"
+
 
 const Bio = () => (
   <Segment
@@ -11,7 +11,7 @@ const Bio = () => (
 
 
     style={{
-  
+
       fontSize: "1.5em",
       fontWeight: "normal",
       marginTop: "0.5em",

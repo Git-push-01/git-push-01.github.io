@@ -12,7 +12,6 @@ const PortFolioDemo = () => (
         </Card.Content>
 
         <Image
-        
           src={hugoPic}
           centered
           fluid

@@ -6,12 +6,12 @@ import TechSkill from "../components/techSkill";
 
 const panes = [
   {
-    menuItem: " Contact Info",
-    render: () => <Info  />,
+    menuItem: " Technical Skills",
+    render: () => < TechSkill  />,
   },
   {
-    menuItem: "Technical Skills",
-    render: () => <TechSkill />,
+    menuItem: "Contact Info",
+    render: () => <Info />,
   },
   {
     menuItem: "Education",
@@ -23,8 +23,8 @@ const MenuContainer = () => {
   return (
     <Tab
 
-      defaultActiveIndex={1}
-      
+      defaultActiveIndex={0}
+
       menu={{
         attached: false,
         pointing: true,
