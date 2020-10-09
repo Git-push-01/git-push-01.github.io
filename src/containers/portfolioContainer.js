@@ -4,6 +4,7 @@ import BreakTimeDemo from "../components/breakTimeDemo";
 import MoodSwingDemo from "../components/moodSwingDemo";
 import DogBarksDemo from "../components/DogBarksDemo";
 import PortFolioDemo from "../components/portFolioDemo";
+import RedditCloneScraper from "../components/redditCloneScraper"
 
 
 const PortfolioContainer = () => (
@@ -19,6 +20,9 @@ const PortfolioContainer = () => (
 </Card>
 <Card>
 <PortFolioDemo/>
+</Card>
+<Card>
+<RedditCloneScraper/>
 </Card>
 </Card.Group>
 

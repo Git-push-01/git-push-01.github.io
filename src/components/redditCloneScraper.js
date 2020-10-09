@@ -2,7 +2,7 @@ import React from "react";
 import { Popup, Card, Image } from "semantic-ui-react";
 import redditClone from "../images/redditClone.jpg"
 
-const DogBarksDemo = () => (
+const RedditCloneScraper= () => (
   <Popup
     trigger={
       <Card fluid={true} raised={true}>
@@ -26,4 +26,4 @@ const DogBarksDemo = () => (
   </Popup>
 );
 
-export default DogBarksDemo;
+export default RedditCloneScraper;
