@@ -8,7 +8,7 @@ const RedditCloneScraper= () => (
       <Card fluid={true} raised={true}>
         <Card.Content textAlign="center">
           <Card.Header>Reddit Scraper</Card.Header>
-           Reddit Web Scraper using puppetter MongoDB and Twilio SMS API
+           Reddit Web Scraper using Puppeteer MongoDB and Twilio SMS API
         </Card.Content>
 
         <Image
