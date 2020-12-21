@@ -25,6 +25,12 @@ const Info = () => (
         <a href='https://github.com/Git-push-01'>@Git-push-01</a>
         </List.Content>
         </List.Item>
+        <List.Item>
+        <List.Icon name='linkedin' size='large' verticalAlign='middle' />
+        <List.Content>
+        <a href='https://www.linkedin.com/in/hugo-escandon-960a19167/'>LinkedIn</a>
+        </List.Content>
+        </List.Item>
       </List>
       </Card.Description>
     </Card.Content>
