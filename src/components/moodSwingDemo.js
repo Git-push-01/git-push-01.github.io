@@ -14,8 +14,8 @@ const MoodSwingDemo = () => (
 
         <Image
           src={moodSwing}
-          fluid
           centered
+          fluid
           rounded
           href="https://lit-castle-80970.herokuapp.com/users/sign_up"
           target="_blank"
