@@ -1,6 +1,6 @@
 import React from "react";
 import { Segment, Image } from "semantic-ui-react";
-import hugoPic from "../images/hugoPic.jpg";
+import newHugo from "../images/newHugo.jpg";
 
 const Bio = () => (
   <Segment
@@ -14,7 +14,7 @@ const Bio = () => (
       marginBottom: "0.1em",
     }}
   >
-    <Image size="medium" src={hugoPic} centered />
+    <Image size="medium" src={newHugo} centered />
     Team-oriented Full Stack Software Developer; with a passion for developing
     creative business solutions. Using my background in Computer Science,
     interpersonal, and communications skills, I bring adaptability to
