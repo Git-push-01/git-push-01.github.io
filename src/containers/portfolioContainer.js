@@ -5,6 +5,7 @@ import MoodSwingDemo from "../components/moodSwingDemo";
 import DogBarksDemo from "../components/DogBarksDemo";
 import PortFolioDemo from "../components/portFolioDemo";
 import RedditCloneScraper from "../components/redditCloneScraper"
+import TriStateDemo from "../components/triStateDemo"
 
 
 const PortfolioContainer = () => (
@@ -23,6 +24,9 @@ const PortfolioContainer = () => (
 </Card>
 <Card>
 <RedditCloneScraper/>
+</Card>
+<Card>
+<TriStateDemo/>
 </Card>
 </Card.Group>
 
