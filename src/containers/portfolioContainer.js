@@ -10,12 +10,12 @@ import TriStateDemo from "../components/triStateDemo"
 
 const PortfolioContainer = () => (
   <Card.Group  centered rounded="true" style={{minHeight: 100, padding: '1em 0em' }}>
-  <Card>
- <BreakTimeDemo />
- </Card>
- <Card>
-<MoodSwingDemo />
-</Card>
+ //  <Card>
+ // <BreakTimeDemo />
+ // </Card>
+//  <Card>
+// <MoodSwingDemo />
+// </Card>
 <Card>
 <DogBarksDemo/>
 </Card>
