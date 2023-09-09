@@ -1,0 +1,30 @@
+import React from "react";
+import { Popup, Card, Image } from "semantic-ui-react";
+import moodSwing from "../images/moodSwing.jpg";
+import "../App.css";
+
+const MoodSwingDemo = () => (
+  <Popup
+    trigger={
+      <Card fluid={true} raised={true}>
+        <Card.Content textAlign="center">
+          <Card.Header>Mood-Swing</Card.Header>
+          Music video app that utilizes combinations of emojis
+        </Card.Content>
+
+        <Image
+          src={moodSwing}
+          centered
+          fluid
+          rounded
+          href="https://github.com/Git-push-01/MoodSwing"
+          target="_blank"
+        />
+      </Card>
+    }
+  >
+    <Popup.Header>Live Demo</Popup.Header>
+  </Popup>
+);
+
+export default MoodSwingDemo;
