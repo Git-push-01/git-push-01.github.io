@@ -16,7 +16,7 @@ const BreakTimeDemo = () => (
           centered
           fluid
           rounded
-          href="https://break-time-frontend.herokuapp.com/login"
+          href="https://github.com/Git-push-01/break-time-frontend"
           target="_blank"
         />
       </Card>

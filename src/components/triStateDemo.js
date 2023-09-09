@@ -8,7 +8,7 @@ const TriStateDemo = () => (
       <Card fluid={true} raised={true} >
         <Card.Content textAlign="center">
           <Card.Header>Tri-StateEvents</Card.Header>
-          Tri-state comedy events with diret links to purchase and info page on Ticket-Master
+          Tri-state comedy events with directs links to purchase and info page on Ticket-Master
         </Card.Content>
 
         <Image

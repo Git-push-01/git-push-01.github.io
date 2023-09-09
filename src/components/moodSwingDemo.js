@@ -17,7 +17,7 @@ const MoodSwingDemo = () => (
           centered
           fluid
           rounded
-          href="https://lit-castle-80970.herokuapp.com/users/sign_up"
+          href="https://github.com/Git-push-01/MoodSwing"
           target="_blank"
         />
       </Card>

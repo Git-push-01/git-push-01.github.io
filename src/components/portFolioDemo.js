@@ -7,7 +7,7 @@ const PortFolioDemo = () => (
     trigger={
       <Card fluid={true} raised={true}>
         <Card.Content textAlign="center">
-          <Card.Header>PortFolio Demo</Card.Header>
+          <Card.Header>PortFolio</Card.Header>
           JavaScript Application using Semantic React UI
         </Card.Content>
 
@@ -16,7 +16,7 @@ const PortFolioDemo = () => (
           centered
           fluid
           rounded
-          href="https://still-earth-44121.herokuapp.com/"
+          href="https://www.hugoescandon.dev/"
           target="_blank"
         />
       </Card>
