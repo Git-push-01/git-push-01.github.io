@@ -10,11 +10,11 @@ const Education = () => (
         <List bulleted >
           <List.Item>
             Flatiron School New York, NY Certificate of Full Stack Software
-            Engineering, Dec 2019
+            Engineering
           </List.Item>
           <List.Item>
             Union County College Cranford, NJ Associate Degree in Computer
-            Science, May 2018
+            Science
           </List.Item>
         </List>
       </Card.Description>
